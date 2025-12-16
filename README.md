@@ -8,11 +8,11 @@ Prompt Generation <br />
 Image Editing by using Nano banana <br />
 Result Verification <br />
 
-| Algorithms      | Applications                                                                                                                                                    |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Detection       | YOLOv8 / MTCNN / RetinaFace<br>Identify input type (portrait, object, scenery)<br>Face localization before processing                                            |
-| Embedding       | ArcFace / FaceNet / InsightFace–buffalo_l<br>Compare similarity before/after edit<br>Identity preservation<br>Prevent mis-generation (wrong face, wrong person) |
-| Vision Language | BLIP<br>Auto-generate BLG editing prompt<br>Extract subjects, colors, objects                                                                                   |
-| Image Generation| Nano-Banana<br>Apply background/clothing/style changes<br>Produce final edited image                                                                             |
-| Verification    | FaceNet / MTCNN / YOLOv8<br>Face similarity & age consistency check<br>Detect identity distortion<br>Background/object changes                                  |
-| Classification  | ResNet-18 / CNN Classifier<br>ID-photo recognition<br>Dataset labeling<br>Assist quality control                                                                |
+| Model Pipeline     | Algorithms                                 | Applications                                                                                                     |
+|--------------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Detection          | YOLOv8 / MTCNN / RetinaFace                | Identify input type (portrait, object, scenery)<br>Face localization before processing                           |
+| Embedding          | ArcFace / FaceNet / InsightFace–buffalo_l  | Compare similarity before/after edit<br>Identity preservation<br>Prevent mis-generation (wrong face, wrong person)|
+| Vision Language    | BLIP                                       | Auto-generate BLG editing prompt<br>Extract subjects, colors, objects                                            |
+| Image Generation   | Nano-Banana                                | Apply background/clothing/style changes<br>Produce final edited image                                            |
+| Verification       | FaceNet / MTCNN / YOLOv8                   | Face similarity & age consistency check<br>Detect identity distortion<br>Background/object changes               |
+| Classification     | ResNet-18 / CNN Classifier                 | ID-photo recognition<br>Dataset labeling<br>Assist quality control                                               |
