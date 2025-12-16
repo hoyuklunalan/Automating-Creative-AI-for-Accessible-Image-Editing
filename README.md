@@ -8,6 +8,11 @@ Prompt Generation <br />
 Image Editing by using Nano banana <br />
 Result Verification <br />
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+| Algorithms      | Applications                                                                                                                                                    |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Detection       | YOLOv8 / MTCNN / RetinaFace<br>Identify input type (portrait, object, scenery)<br>Face localization before processing                                            |
+| Embedding       | ArcFace / FaceNet / InsightFace–buffalo_l<br>Compare similarity before/after edit<br>Identity preservation<br>Prevent mis-generation (wrong face, wrong person) |
+| Vision Language | BLIP<br>Auto-generate BLG editing prompt<br>Extract subjects, colors, objects                                                                                   |
+| Image Generation| Nano-Banana<br>Apply background/clothing/style changes<br>Produce final edited image                                                                             |
+| Verification    | FaceNet / MTCNN / YOLOv8<br>Face similarity & age consistency check<br>Detect identity distortion<br>Background/object changes                                  |
+| Classification  | ResNet-18 / CNN Classifier<br>ID-photo recognition<br>Dataset labeling<br>Assist quality control                                                                |
