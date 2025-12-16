@@ -7,3 +7,7 @@ Input Image Analysis <br />
 Prompt Generation <br />
 Image Editing by using Nano banana <br />
 Result Verification <br />
+
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
