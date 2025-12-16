@@ -1,5 +1,5 @@
 # Automating Creative AI for Accessible Image Editing
-This Project is collaborate with Yum Me Print to provides text-based editing or generated using simple, natural language prompts with Google Nano Banana. This project proposes a user-friendly and secure portrait editing pipeline that removes the need for manual prompting. By analysing the input image automatically and applying a verification framework, the system ensures consistent edits while preserving the subject’s identity.  
+This project is a collaboration with Yum Me Print and utilizes Google Nano Banana to enable text-based editing or content generation through simple, natural language prompts. The proposed system offers a user-friendly and secure portrait editing workflow that eliminates the need for manual prompts. By automatically analyzing input images and employing a verification framework, the system delivers consistent edits while preserving the subject’s identity.
 <br />
 This project can dividend into 4 part:<br />
 
